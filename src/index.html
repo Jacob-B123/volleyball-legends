@@ -1,17 +1,172 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Volleyball Legends Updates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #ff6600;
+      color: black;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    /* Top-left and top-right images */
+    .corner-img {
+      position: absolute;
+      top: 10px;
+      width: 80px;
+      height: auto;
+    }
+
+    .top-left {
+      max-width 20px;
+      left: 10px;
+    }
+
+    .top-right {
+      
+      right: 10px;
+    }
+
+    header img.main-banner {
+      max-width: 900px;
+      width: 100%;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .ad-banner {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      margin: 20px 0;
+      border: 2px dashed #ccc;
+    }
+
+    .update-post {
+      background: white;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .update-post img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+
+    .update-post h2 {
+      margin: 0 0 10px;
+    }
+
+    .update-post time {
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+      margin-top: 40px;
+    }    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+  <header>
+    <img src="https://static.beebom.com/wp-content/uploads/2025/01/Haikyuu-Legends-Roblox-banner.jpg?w=1250&quality=75" alt="Volleyball Legends Logo / Image">
+  <!-- Top-left image (your volleyball image) -->
+  <img src="https://api.deepai.org/job-view-file/b9b979d2-9d2a-4f1e-a068-a33395551791/outputs/output.jpg" alt="volleyball" class="corner-img top-left">
+    <h1>Volleyball Legends – Latest Updates</h1>
+    <p>Your go-to source for patch notes, codes and event info</p>
+  </header>
+
+  <main>
+
+    <!-- Ad space -->
+    <div class="ad-banner">
+      <p>Ad Space – Place your advertisement here</p>
+    </div>
+
+    <!-- Update Post #1 -->
+    <article class="update-post">
+      <h2>Update 41 – Playercards & New Codes</h2>
+      <time datetime="2025-10-18">October 18, 2025</time>
+      <img src="https://tr.rbxcdn.com/180DAY-6a1fbaf40781f3d909a0df0fc91fd7fd/768/432/Image/Webp/noFilter" alt="Update 41 Screenshot">
+      <p>Today the developers released <strong>Update 41</strong> which introduces the new 
+        <em>Playercards</em> system, new codes: 
+        <span class="highlight">UPDATE_41</span>, 
+        <span class="highlight">PLAYERCARDS</span>, 
+        <span class="highlight">SECRET_CARDS</span> and more.
+      </p>
+      <ul>
+        <li>New mechanic: <span class="highlight">Playercards</span> – unlock badges and represent your accomplishments.</li>
+        <li>New codes: 
+          <code>UPDATE_41</code> → 5 Lucky Style Spins; 
+          <code>PLAYERCARDS</code> → 5 Lucky Ability Spins; 
+          <code>SECRET_CARDS</code> → 5 Lucky Style Spins.
+        </li>
+        <li>Balance tweaks, bug fixes, etc.</li>
+      </ul>
+      <p>Be sure to redeem the codes quickly — they may expire.</p>
+    </article>
+
+    <!-- Ad space -->
+    <div class="ad-banner">
+      <p>Ad Space – Another advertisement here</p>
+    </div>
+
+    <!-- Update Post #2 -->
+    <article class="update-post">
+      <h2>Update 38 – Halloween Season 8 & Free Spins</h2>
+      <time datetime="2025-09-27">September 27, 2025</time>
+      <img src="https://freetoplayer.com/wp-content/uploads/2025/07/Volleyball-Legends-Mikage-Update-codes.jpg" alt="Update 38 Halloween Theme Screenshot">
+      <p>With <strong>Update 38</strong>, the game entered its Halloween/Season 8 event: spooky decorations, new themed balls, score effects, emotes and codes: 
+        <code class="highlight">.UPDATE_38</code>, 
+        <code class="highlight">.FALL_SEASON</code>, 
+        <code class="highlight">.BECOME_SPIDER</code>.
+      </p>
+      <ul>
+        <li>Season duration: ~5 weeks.</li>
+        <li>Ranked rewards specific to the season.</li>
+        <li>Free spins via codes.</li>
+      </ul>
+    </article>
+
+    <!-- Ad space -->
+    <div class="ad-banner">
+      <p>Ad Space – Place your advertisement here</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Volleyball Legends Updates – All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
